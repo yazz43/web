@@ -1,0 +1,91 @@
+*{
+    background-color: rgb(231, 196, 157);
+}
+.menu{
+    text-decoration: none;
+    list-style:none;
+    background-color: rgb(186, 150, 216);
+    margin-top: 1;
+}
+li, a{
+    background-color: rgb(186, 150, 216);
+    padding-left:5px;
+}
+.logo{
+    width:10%;
+    float:right;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 0.5%;
+    border-radius: 18%;
+} 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 0.5%;
+    border-radius: 18%;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 0.5%;
+    border-radius: 18%;
+}
+.pie{
+   background-color:rgb(186, 150, 216) ;
+}
+aside {
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-left: 5%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.boxone{
+    padding-top: 3em;
+}
+.foto{
+    width:30em;
+    height:30em;
+}
+.carousel{
+    width:25em;
+    height:25em;
+}
+.carousel-caption{
+    background-color: transparent;
+}
+.item-grid{ 
+    padding: 5px;
+}
+.contenedor {
+	display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-left: 15%;
+}
+.pintura{
+    width: 250px;
+    height: 250px;
+}
+.flex{
+     display: flex;
+}
+.precio{
+    font-weight: 600;
+    font-size: 1.5em;
+    justify-content: center;
+    margin-left: 5px;
+}
+.precio p{
+    font-size: 0.8em;
+}
+.objeto{
+    font-size: 1em;
+    font-weight: bold;
+}
+h3{
+    border-bottom: solid 2px rgb(186, 150, 216);
+}
